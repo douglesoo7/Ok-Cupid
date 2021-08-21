@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="30dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/tvQ3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Do you enjoy discussing politics?"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvQ3Option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="#C0C0C0"
+        android:elevation="10dp"
+        android:padding="15dp"
+        android:text="Yes"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/tvQ3Option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvQ3Option1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="#C0C0C0"
+        android:elevation="10dp"
+        android:padding="15dp"
+        android:text="No"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/tvQ3Skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvQ3Option2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:padding="20dp"
+        android:text="Skip this question"
+        android:textColor="#6666FF"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

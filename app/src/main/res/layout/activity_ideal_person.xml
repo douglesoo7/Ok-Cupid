@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="30dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/tvIdealPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_medium"
+        android:padding="5dp"
+        android:text="Ideal Person"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvWhatConnection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvIdealPerson"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_medium"
+        android:text="What connections are you\n looking for?"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:layout_below="@id/tvWhatConnection"
+        android:id="@+id/cbHookups"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hookups"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:padding="10dp"/>
+
+    <CheckBox
+        android:id="@+id/cbNewFriends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New friends"
+        android:layout_below="@+id/cbHookups"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:layout_centerVertical="true"/>
+
+    <CheckBox
+        android:id="@+id/cbShortTermDating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbNewFriends"
+        android:text="Short-term dating"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:layout_centerVertical="true"/>
+    <CheckBox
+        android:id="@+id/cbLongTermDating"
+        android:layout_below="@id/cbShortTermDating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Long-term dating"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:layout_centerVertical="true"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/btnIdealPersonNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="NEXT"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

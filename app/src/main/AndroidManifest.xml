@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.okcupidcopy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OkCupidCopy">
+
+        <activity android:name=".phone_number" />
+        <activity android:name=".password" />
+        <activity android:name=".Email" />
+        <activity android:name=".Setting" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Connection" />
+        <activity android:name=".Distance" />
+        <activity android:name=".Age" />
+        <activity android:name=".Gender" />
+        <activity android:name=".Preferences"/>
+
+        <activity android:name=".CardProfileActivity" />
+        <activity android:name=".MessagesActivity" />
+        <activity android:name=".LikesActivity" />
+        <activity android:name=".MainActivity8" />
+        <activity android:name=".MainActivity7" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".LoginUsingEmailActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".Question5Activity" />
+        <activity android:name=".Question4Activity" />
+        <activity android:name=".Question3Activity" />
+        <activity android:name=".Question2Activity" />
+        <activity android:name=".Question1Activity" />
+        <activity android:name=".AnswerQuestionsActivity" />
+        <activity android:name=".IntroduceYourselfActivity" />
+        <activity android:name=".TellUsAboutYourselfActivity" />
+        <activity android:name=".IdealPersonAgeActivity" />
+        <activity android:name=".InterestedInActivity" />
+        <activity android:name=".IdealPersonActivity" />
+        <activity android:name=".LookingForActivity" />
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".BirthDateActivity" />
+        <activity android:name=".GenderActivity" />
+        <activity android:name=".FirstNameActivity" />
+        <activity android:name=".SetUpProfileActivity" />
+        <activity android:name=".SignUpPasswordActivity" />
+        <activity android:name=".SignUpEmailActivity" />
+        <activity android:name=".LoginUsingPhoneActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

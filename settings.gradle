@@ -1,0 +1,2 @@
+rootProject.name = "OkCupidCopy"
+include ':app'
